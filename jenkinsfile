@@ -1,6 +1,6 @@
 pipeline{
     agent any
-    tools{maven 'M1'}
+    tools{maven 'M2'}
         stages{
                 stage("Fetching"){
                     steps{git branch: 'main', url:"https://github.com/samasi25/SpringPetClinic.git"}}
