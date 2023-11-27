@@ -3,7 +3,7 @@ pipeline{
     tools{maven 'M1'}
         stages{
                 stage("Fetching"){
-                    steps{git branch: 'main', url:"https://github.com/techwithapd/SpringPetClinic.git"}}
+                    steps{git branch: 'main', url:"https://github.com/samasi25/SpringPetClinic.git"}}
                     
                 stage("compile"){
                     steps{bat 'mvn compile'}}
